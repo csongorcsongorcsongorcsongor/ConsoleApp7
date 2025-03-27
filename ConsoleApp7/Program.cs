@@ -23,15 +23,22 @@ namespace ConsoleApp7
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine(" ");
-            Console.WriteLine("Kolbaszok");
-            Console.WriteLine(" ");
+            Console.WriteLine("");
+            Console.WriteLine("  _         _ _                        _    ");
+            Console.WriteLine(" | |       | | |                      | |   ");
+            Console.WriteLine(" | | _____ | | |__   __ _ ___ _______ | | __");
+            Console.WriteLine(" | |/ / _ \\| | '_ \\ / _` / __|_  / _ \\| |/ /");
+            Console.WriteLine(" |   < (_) | | |_) | (_| \\__ \\/ / (_) |   < ");
+            Console.WriteLine(" |_|\\_\\___/|_|_.__/ \\__,_|___/___\\___/|_|\\_\\");
+            Console.WriteLine(); Console.WriteLine(" ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(" 1 - Create");
             Console.WriteLine(" 2 - Lekérdezés");
             Console.WriteLine(" 3 - Törlés");
 
             Console.ForegroundColor = ConsoleColor.Green;
-
+            Console.WriteLine("  ");
+            Console.Write("Choose: ");
             string input = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.White;
             if (input == "1")
