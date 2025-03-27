@@ -71,7 +71,8 @@ namespace ConsoleApp7
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Sikeres törlés");
-                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("-------------------");
                     Console.WriteLine("Indítsd újra :)");
 
                 }
@@ -92,7 +93,8 @@ namespace ConsoleApp7
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Sikeres létrehozás");
-                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("-------------------");
                     Console.WriteLine("Indítsd újra :)");
                 }
             }
